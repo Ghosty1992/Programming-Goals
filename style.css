@@ -1,0 +1,92 @@
+html {
+  height: 100vh;
+  min-width: 600px;
+  background-color: rgba(5, 2, 34, 0.4);
+}
+
+.container {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.main {
+  padding: 20px;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+}
+
+input[type="text"] {
+  height: 30px;
+  outline: 0;
+  border: none;
+  font-size: 1rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif,
+    sans-serif;
+  color: #595959;
+  flex-grow: 1;
+}
+
+button {
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  outline: 0;
+  border: none;
+  color: #595959;
+}
+
+button:hover {
+  color: lightcoral;
+}
+
+.displayGoals {
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px 25px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  padding: 15px 0;
+  font-size: 1rem;
+  color: #595959;
+}
+
+i {
+  pointer-events: none;
+}
+
+.goals {
+  flex-grow: 1;
+}
+
+.removeAll {
+  padding: 10px 3px;
+  cursor: pointer;
+  background-color: red;
+  outline: 0;
+  border-radius: 15%;
+  font-size: 0.9rem;
+}
+
+.removeAll:hover {
+  color: lightcoral;
+}
